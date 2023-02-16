@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Conway's Game of Life</title>
+  <link rel="stylesheet" href="life-style.css">
+</head>
+<body>
+  <p>Implementation of <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a> using Canvas API for rendering</p>
+  <canvas id="canvas"></canvas>
+  <div class="subtitle">Running Information</div>
+  <section id="labels">
+    <label for="generationNo">Generation:</label>
+    <span id="generationNo">n/a</span></br>
+    <label for="liveCells">Live Cells:</label>
+    <span id="liveCells">n/a</span>
+    <p></p>
+  </section>
+  <div class="subtitle">Controls</div>
+  <section id="controls">
+    <button id="start">Start</button>
+    <button id="nextTick">Next Cycle</button>
+    <button id="reset">Reset</button>
+    <button id="random">Randomize</button>
+    <button id="gosper">Gosper Glider Gun</button>
+  </section>
+</body>
+<script type="text/javascript" src="life.js"></script>
+</html>

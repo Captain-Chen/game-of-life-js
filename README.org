@@ -1,0 +1,9 @@
+* Conway's Game of Life
+- Implementation of [[https://en.wikipedia.org/wiki/Conway's_Game_of_Life][Conway's Game of Life]]
+- Uses the [[https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API][Canvas API]] to draw to the screen
+- [[https://codepen.io/captain-chen/pen/MObVzE][Live Demo]] (CodePen)
+* How to run
+1. Clone the project somewhere. \\
+   =git clone https://www.github.com/captain-chen/game-of-life-js.git=
+2. Open index.html in your browser.
+3. Watch it go.
